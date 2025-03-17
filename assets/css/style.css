@@ -11,14 +11,20 @@
     --bg-dark-color: #202C36; 
     --bg-main-light-color: #FAFAFA;
     --black-color: #111517;
+    --black-color2: #333333;
     --white-text-color: #FFFFFF;
     --green-color: #66CC00;
+    --blue-color: #0088cc;
+    --red-color: #E4405F;
 }
 
 .active  {
     --bg-light-color: #2B3844;
     --bg-main-light-color: #202C36;
     --black-color: #FFFFFF;
+    --black-color2: #ccc;
+    --blue-color: #32A9E0;
+    --red-color:  #EC5F76;
 }
 
 body {
@@ -244,6 +250,7 @@ a {
 
 /* about start */
 .about {
+    padding-bottom: 50px;
     background-color: var(--bg-main-light-color);
 }
 
@@ -279,6 +286,54 @@ a {
     text-align: justify;
     color: var(--black-color);
 }
+
+/* site footer start */
+.footer {
+    background-color: var(--bg-light-color);
+}
+
+.footer_wrapper {
+    padding-block: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info_link {
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.footer_desc {
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.footer-desc_link {
+    font-size: 18px;
+    color: var(--black-color);
+}
+
+.footer-link_telegram:hover {
+    color: var(--blue-color);
+    opacity: .8;
+}
+
+.footer-link_instagram:hover {
+    color: var(--red-color);
+    opacity: .8;
+}
+
+.footer-link_github:hover {
+    color: var(--black-color2);
+    opacity: .7;
+}
+
 /* Responsive start */
 
 @media only screen and (max-width: 1246px) {
