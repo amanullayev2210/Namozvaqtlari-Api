@@ -80,6 +80,10 @@ a {
     color: var(--black-color);
 }
 
+.site-info_link:hover {
+    color: var(--green-color);
+}
+
 .site-darkmode_button {
     display: flex;
     justify-content: space-between;
@@ -90,9 +94,6 @@ a {
     color: var(--black-color);
 }
 
-.site-darkmode_button:hover {
-    cursor: pointer;
-}
 
 .site_infoMode_span {
     color: var(--black-color);
@@ -127,6 +128,10 @@ a {
     align-items: center;
     column-gap: 10px;
     background-color: var(--green-color);
+}
+
+.hero-time_wrapper:hover {
+    cursor: pointer;
 }
 
 .hero-time_tittle {
@@ -303,6 +308,10 @@ a {
     font-size: 26px;
     font-weight: 500;
     color: var(--black-color);
+}
+
+.footer-info_link:hover {
+    color: var(--green-color);
 }
 
 .footer_desc {
