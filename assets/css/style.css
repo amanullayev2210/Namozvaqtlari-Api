@@ -14,6 +14,7 @@
     --black-color2: #333333;
     --white-text-color: #FFFFFF;
     --green-color: #66CC00;
+    --green-color2: #66CC00;
     --blue-color: #0088cc;
     --red-color: #E4405F;
 }
@@ -23,6 +24,7 @@
     --bg-main-light-color: #202C36;
     --black-color: #FFFFFF;
     --black-color2: #ccc;
+    --green-color: #ADFF2F;
     --blue-color: #32A9E0;
     --red-color:  #EC5F76;
 }
@@ -94,6 +96,10 @@ a {
     color: var(--black-color);
 }
 
+.site-darkmode_button:hover {
+    cursor: pointer;
+}
+
 
 .site_infoMode_span {
     color: var(--black-color);
@@ -127,7 +133,7 @@ a {
     justify-content: center;
     align-items: center;
     column-gap: 10px;
-    background-color: var(--green-color);
+    background-color: var(--green-color2);
 }
 
 .hero-time_wrapper:hover {
