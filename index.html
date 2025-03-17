@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/scripts/script.js" defer></script>
+    <link rel="shortcut icon" href="./assets/icons/moon_light.svg" type="image/x-icon">
+    <title>Namoz vaqtlari</title>
+</head>
+<body id="body">
+    <!-- site header -->
+    <header class="site_header">
+        <div class="container">
+            <div class="site_wrapper">
+                <div class="site_info">
+                    <a href="index.html" class="site-info_link" title="bosh sahifaga qaytish uchun">Islom.uz</a>
+                </div>
+                <div class="site_darkmode">
+                    <button class="site-darkmode_button" id="js-btn"><img src="./assets/icons/moon_light.svg" id="js-modeImg"> <span class="site_infoMode_span" id="js-mode_text" title="Qorong'i rejim ko'zingiz uchun qulayroq bo'lishi mumkin"></span></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="site_main">
+        <!-- site hero section -->
+         <section class="site_hero">
+            <div class="container">
+                <div class="site-hero_wrapper">
+                    <h2 class="hero_title">Namoz vaqtlari</h2>
+                    <div class="hero-time_wrapper">
+                        <h3 class="hero-time_tittle">Joriy vaqt:</h3>
+                        <time id="js-site-time" class="site-time"></time>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- services start -->
+         <section class="services">
+             <div class="container">
+                 <div class="services_wrapper" id="js-services">
+                     <h1 class="services_tittle">Toshkent</h1>
+                     <div class="services-desc_wrapper">
+                         <div class="services-item">
+                             <h4 class="services-item_tittle">Bugungi sana:</h4>
+                             <time class="services-item_time" id="js-service-time"></time>
+                         </div>
+                         <div class="services-item">
+                             <h4 class="services-item_tittle">Bugungi kun:</h4>
+                             <span class="services-item_span" id="js-service-day"></span>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </section>
+         <!-- features section -->
+         <section class="features">
+            <div class="container">
+                <div class="features_wrapper">
+                    <div class="features_items" id="js-inner"></div>
+                </div>
+            </div>
+         </section>
+         <!-- about section -->
+          <section class="about">
+            <div class="container">
+                <div class="about_wrapper">
+                    <div class="about_items">
+                        <div class="about_item">
+                            <h3 class="about-item_tittle">Bomdod namozi</h3>
+                            <p class="about-item_text">Subhi sodiqdan (chin tong otgandan) kun 
+                               chiqqunchadir. Bomdod namozini tong 
+                               yorishganda oʻqish mustahab, a‘loroqdir. Soat 
+                               boʻyicha hisoblansa, bomdodni kun chiqishidan 
+                               40 daqiqacha ilgari oʻqish mustahab vaqtiga 
+                               muvofiq boʻladi.</p>
+                        </div>
+                        <div class="about_item">
+                            <h3 class="about-item_tittle">Peshin namozi</h3>
+                            <p class="about-item_text">Quyosh zavolga (ogʻishga) kеtganidan soʻng to 
+                               narsalarning soyasi quyosh tikkaga kеlgan 
+                               paytdagi soyasidan tashqari oʻz uzunligiga 
+                               nisbatan ikki baravar ortguniga qadar. Pеshin 
+                               namozini yoz faslida biroz kеchiktirib, qish faslida 
+                               esa vaqti kirishi bilan oʻqish mustahabdir.</p>
+                        </div>
+                        <div class="about_item">
+                            <h3 class="about-item_tittle">Asr namozi</h3>
+                            <p class="about-item_text">Har bir narsaning soyasi quyosh tikkaga kеlgan
+                               paytdagi soyasidan tashqari oʻziga nisbatan ikki 
+                               baravar ortganidan boshlab quyosh botgunchadir. 
+                               Asr namozini quyosh tigʻini oʻzgartirmay, nursiz 
+                               holatga kiri-shidan oldinroq oʻqish mustahabdir.</p>
+                        </div>
+                        <div class="about_item">
+                            <h3 class="about-item_tittle">Shom namozi</h3>
+                            <p class="about-item_text">Kun botgan paytdan boshlab kunbotar tomonda 
+                               shafaq (qizgʻish nurlar) gʻoyib boʻlgunchadir.
+                               Shom namozini doimo quyosh botishi bilan oʻqish 
+                               mustahabdir.</p>
+                        </div>
+                        <div class="about_item">
+                            <h3 class="about-item_tittle">Xufton namozi</h3>
+                            <p class="about-item_text">Shafaq batamom yoʻqolgandan kеyin kiradi. 
+                                Xufton namozini kеchaning uchdan birining 
+                                oxirida oʻqish afzal va nihoyatda a‘lo boʻladi.</p>
+                        </div>
+                        <div class="about_item">
+                            <h3 class="about-item_tittle">Vitr namozi</h3>
+                            <p class="about-item_text">Xufton oʻqilgandan kеyingina kiradi. Xufton va vitr 
+                                namozlarini subhi sodiqqacha oʻqisa boʻladi. Vitr 
+                                namozini tun oxirida uygʻonishga qodir boʻlgan 
+                                kishilar subh oldidan oʻqisalar, mustahab amal 
+                                qilgan boʻlishadi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+         <!-- template section -->
+        <template id="js-template">
+            <div class="features_item">
+                <img src="./assets/images/bomdod.png" alt="Not found" class="features-item_img">
+                <h3 class="features-item_title">Bomdod</h3>
+                <time class="features-item_time js-pray-time-first">06:32</time>
+                <h4 class="features-item_city">Toshkent</h4>
+            </div>
+            <div class="features_item">
+                <img src="./assets/images/peshin.png" alt="Not found" class="features-item_img">
+                <h3 class="features-item_title">Peshin</h3>
+                <time class="features-item_time js-pray-time-second">06:32</time>
+                <h4 class="features-item_city">Toshkent</h4>
+            </div>
+            <div class="features_item">
+                <img src="./assets/images/asr.png" alt="Not found" class="features-item_img">
+                <h3 class="features-item_title">Asr</h3>
+                <time class="features-item_time js-pray-time-third">06:32</time>
+                <h4 class="features-item_city">Toshkent</h4>
+            </div>
+            <div class="features_item">
+                <img src="./assets/images/shom.png" alt="Not found" class="features-item_img">
+                <h3 class="features-item_title">Shom</h3>
+                <time class="features-item_time js-pray-time-fourth">06:32</time>
+                <h4 class="features-item_city">Toshkent</h4>
+            </div>
+            <div class="features_item">
+                <img src="./assets/images/xufton.png" alt="Not found" class="features-item_img">
+                <h3 class="features-item_title">Xufton</h3>
+                <time class="features-item_time js-pray-time-fifth">06:32</time>
+                <h4 class="features-item_city">Toshkent</h4>
+            </div>
+          </template>
+    </main>
+
+</body>
+</html>
