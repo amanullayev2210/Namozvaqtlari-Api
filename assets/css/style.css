@@ -359,6 +359,10 @@ a {
     .features_items {
         justify-content: space-evenly;
     }
+
+    .features_item {
+        max-width: 170px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -373,6 +377,10 @@ a {
     }
     .about_item {
         max-width: 360px;
+    }
+
+    .features_item {
+        max-width: 220px;
     }
 }
 
