@@ -13,6 +13,7 @@ const Eltime = document.getElementById("js-service-time");
 const Elday = document.getElementById("js-service-day");
 
 // HTML template Elements
+const ElbigInner = document.getElementById("html");
 const Elinner = document.getElementById("js-inner");
 const Eltemp = document.getElementById("js-template").content;
 const docFrg = document.createDocumentFragment();
@@ -26,11 +27,13 @@ let mode_data = localStorage.getItem("data") === "true";
 
 // Dark mode
 if (mode_data) {
+    ElbigInner.style.colorScheme = "dark"
     Elbody.classList.add("active");
     ElmodeImg.src = "./assets/icons/moon_dark.svg";
     ElmodeText.textContent = "Yorug' rejim";
     Elbtn.title = "Yorug' rejim yorqinlikni yoqtiradiganlar uchun"
   } else {
+    ElbigInner.style.colorScheme = "unset"
     Elbody.classList.remove("active");
     ElmodeImg.src = "./assets/icons/moon_light.svg";
     ElmodeText.textContent = "Qorong'i rejim";
@@ -42,11 +45,13 @@ if (mode_data) {
     mode_data = !mode_data; 
   
     if (mode_data) {
+        ElbigInner.style.colorScheme = "dark"
         Elbody.classList.add("active");
         ElmodeImg.src = "./assets/icons/moon_dark.svg";
         ElmodeText.textContent = "Yorug' rejim";
         Elbtn.title = "Yorug' rejim yorqinlikni yoqtiradiganlar uchun"
     } else {
+        ElbigInner.style.colorScheme = "unset"
         Elbody.classList.remove("active");
         ElmodeImg.src = "./assets/icons/moon_light.svg";
         ElmodeText.textContent = "Qorong'i rejim";
